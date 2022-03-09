@@ -1,0 +1,14 @@
+package Interface.InterfaceDemo3;
+
+public class InterDemo {
+    public static void main(String[] args) {
+        Inter i = new Inter() {
+        };
+
+        i.show1();
+        i.show2();
+        Inter.method1();
+        Inter.method2();
+
+    }
+}
